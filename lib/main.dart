@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:materi_5/statefullWidget.dart';
-import 'package:materi_5/statelessWidget.dart';
+import 'package:materi_5/homePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: InputPage(),
+      home: Homepage(),
     );
   }
 }
